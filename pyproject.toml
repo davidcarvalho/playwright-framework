@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "playwright-python"
+version = "0.1.0"
+description = ""
+authors = ["David Carvalho <David.Carvalho@blueyonder.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+playwright = "^1.24.1"
+flake8 = "^5.0.4"
+black = "^22.6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^22.6.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
